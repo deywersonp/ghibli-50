@@ -1,10 +1,14 @@
 import {
   Box,
+  Button,
   Flex,
   Heading,
+  SimpleGrid,
 } from '@chakra-ui/react';
+import { FilmDetails } from '../../components/FilmDetails';
 
 import { Header } from '../../components/Header';
+import { data } from '../../mock/data';
 
 export const Home = () => {
   return (
@@ -13,6 +17,7 @@ export const Home = () => {
 
       <Flex
         w="100%"
+        flexDirection="column"
         my="6"
         maxWidth={1480}
         mx="auto"
@@ -36,7 +41,31 @@ export const Home = () => {
               Lista de Filmes
             </Heading>
           </Flex>
+
+          <SimpleGrid
+            flex="1"
+            gap="10"
+            minChildWidth={["100%", "100%", "500px"]}
+            alignItems="flex-start"
+          >
+            {data?.films?.map(film => (
+              <FilmDetails
+                key={film.id}
+                data={film}
+              />
+            ))}
+          </SimpleGrid>
         </Box>
+
+        <Button
+          mt={4}
+          size={["sm", "md"]}
+          fontSize={["sm", "md"]}
+          colorScheme="purple"
+          alignSelf="flex-end"
+        >
+          Atualizar Lista
+        </Button>
       </Flex>
     </Box>
   )
