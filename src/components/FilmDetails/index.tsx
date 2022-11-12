@@ -10,7 +10,11 @@ interface Props {
 
 export const FilmDetails = ({ data }: Props) => {
   return (
-    <Flex gap="4" flexDirection={["column", "column", "row"]}>
+    <Flex
+      gap="4"
+      maxWidth="596px"
+      flexDirection={["column", "column", "row"]}
+    >
       <Image
         alignSelf={["center"]}
         w="200px"

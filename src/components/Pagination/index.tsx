@@ -90,7 +90,6 @@ export const Pagination = ({
             <PaginationItem onPageChange={onPageChange} number={lastPage} />
           </>
         )}
-
       </Stack>
     </Stack>
   )
