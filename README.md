@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Ghibli.50
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-serviços-utilizados">Serviços Utilizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-utilizar">Como utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>
+</p>
 
-## Available Scripts
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## 💻 Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Ghibli.50** é um projeto desenvolvido para listar os filmes do estúdio Ghibli.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `npm test`
+*O projeto utiliza-se de uma API Rest, acesse o repositório da API clicando [aqui](https://github.com/deywersonp/ghibli-50-api).*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## 🚀 Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O projeto foi desenvolvido utilizando essas tecnologias:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Crakra UI](https://chakra-ui.com/)
+- [React Query](https://react-query-v3.tanstack.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## 👨‍🔧 Serviços Utilizados
+- GitHub
+- [Ghibli.50 API](https://github.com/deywersonp/ghibli-50-api)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎮 Começando
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Se você tem interesse em executar em modo de desenvolvimento, pode começar clonando o repositório utilizando HTTP ou a chave SSH.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Abra o terminal do Git Bash
+- Digite `git clone`
+- Insira o HTTP ou a chave SSH (no windows, shift + insert para colar no terminal do Git)
+- Você encontra esse HTTP ou a chave SSH clicando em `Code` no canto direito superior deste repositório
 
-## Learn More
+![image](https://user-images.githubusercontent.com/79553681/201451275-36a28bcc-75e3-43da-835e-3a1adc485bd3.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Depois de clonar você pode abrir o projeto na sua IDE (e.g: VSCode) e criar um arquivo chamado `.env.local`
+- Adicione a chave `REACT_APP_API_URL` com valor `http://localhost:3333`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_PS: É necessário estar com a API rodando em desenvolvimento para verificar os funcionamentos da aplicação._
+
+<br>
+
+## 📌 Como utilizar
+
+### `npm install` Para instalar as dependências do projeto
+### `npm run start` Para executar o app em desenvolvimento
+
+Acesse [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
+
+</br>
+
+## 🕵 Features
+
+As principais features da aplicação são:
+
+- Listagem de filmes
+- Atualização da listagem de filmes
+- Aplicação responsiva
+ 
+<br>
+
+ > No caso de bugs sensíveis como vunerabilidades de segurança, por gentileza entre em contato com
+ > <a href = "mailto:deywerson.pereira@gmail.com">deywerson.pereira@gmail.com</a> direto ao invés de utilizar as issues. Valorizamos seu esforço
+ > em melhorar a segurança e a privacidade deste projeto!
+ <br>
+ 
+---
+  
+
+Por favor, siga no github! Obrigado pela visita e mão na massa!
+
+Feito com ♥ por <a href="https://github.com/deywersonp">Deywerson Pereira</a>
