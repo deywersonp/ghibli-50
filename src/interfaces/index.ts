@@ -6,3 +6,9 @@ export interface Film {
   director: string;
   producer: string;
 };
+
+export interface GhibliFilmsResponse {
+  added_films: {
+    count: number;
+  }
+};
