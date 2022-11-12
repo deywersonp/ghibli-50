@@ -8,6 +8,7 @@ import {
 import { FilmDetails } from '../../components/FilmDetails';
 
 import { Header } from '../../components/Header';
+import { Pagination } from '../../components/Pagination';
 import { data } from '../../mock/data';
 
 export const Home = () => {
@@ -47,6 +48,7 @@ export const Home = () => {
             gap="10"
             minChildWidth={["100%", "100%", "500px"]}
             alignItems="flex-start"
+            mb="70px"
           >
             {data?.films?.map(film => (
               <FilmDetails
@@ -55,10 +57,16 @@ export const Home = () => {
               />
             ))}
           </SimpleGrid>
+
+          <Pagination
+            totalCountOfRegisters={50}
+            currentPage={1}
+            onPageChange={(number) => {}}
+          />
         </Box>
 
         <Button
-          mt={4}
+          mt={8}
           size={["sm", "md"]}
           fontSize={["sm", "md"]}
           colorScheme="purple"
