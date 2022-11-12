@@ -30,7 +30,7 @@ export const Home = () => {
 
   const showSuccessToast = (addedFilmsCount: number) => toast({
     title: 'Lista de filmes atualizada!',
-    description: `Foram adicionados ${addedFilmsCount} na lista!`,
+    description: `Foram adicionados ${addedFilmsCount} novo(s) filme(s) na lista!`,
     position: 'top-right',
     status: 'success',
     duration: 7000,

@@ -34,5 +34,6 @@ export const getFilms = async (page: number): Promise<GetFilmsResponse> => {
 export const useFilms = (page: number) => {
   return useQuery(['films', page], () => getFilms(page), {
     staleTime: 1000 * 2 * 60, //2 minutos
+    retry: false,
   });
 }
