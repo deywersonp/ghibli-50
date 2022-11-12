@@ -23,7 +23,7 @@ export const getFilms = async (page: number): Promise<GetFilmsResponse> => {
   });
 
   const totalCount = Number(headers['x-total-count']);
-  const films = data.films.filter(film => film.id < 22);
+  const films = data.films;
 
   return {
     films,
